@@ -1,0 +1,279 @@
+[
+  {
+    "sectionName": "Breakfast: Two Eggs",
+    "tagSection": [
+      "egg",
+      "bread",
+      "potato",
+      "extra egg/meat"
+    ],
+    "defaultTags": [],
+    "defaultMaterial": {
+      "egg": 2,
+      "bread": 2,
+      "potato": 1
+    },
+    "dishes": [
+      {
+        "id": 2,
+        "name": "Two Two Two",
+        "price": 17.79,
+        "material": {
+          "bacon": 2,
+          "sausage": 2
+        }
+      },
+      {
+        "id": 4,
+        "name": "Sausage Patty, Bacon, &Eggs",
+        "price": 18.59,
+        "material": {
+          "sausage patty": 2,
+          "bacon": 2
+        }
+      },
+      {
+        "id": 10,
+        "name": "3 bacon strips",
+        "price": 16.99,
+        "material": {
+          "bacon": 3
+        }
+      },
+      {
+        "id": 10,
+        "name": "3 sausages",
+        "price": 16.99,
+        "material": {
+          "sausage": 3
+        }
+      },
+      {
+        "id": 11,
+        "name": "Ham (Back Bacon)",
+        "price": 17.29,
+        "material": {
+          "ham": 1
+        }
+      },
+      {
+        "id": 12,
+        "name": "Beef Sausages(2)",
+        "price": 17.29,
+        "material": {
+          "beef sausage": 2
+        }
+      },
+      {
+        "id": 13,
+        "name": "Sausage Patties(2)",
+        "price": 17.29,
+        "material": {
+          "sausage patty": 2
+        }
+      },
+      {
+        "id": 14,
+        "name": "Hamburger Patty(1)",
+        "price": 17.99,
+        "material": {
+          "hamburger patty": 1
+        }
+      }
+    ]
+  },
+  {
+    "sectionName": "House Special (No Substitute)",
+    "tagSection": [
+      "egg",
+      "potato",
+      "bread",
+      "something special",
+      "extra egg/meat"
+    ],
+    "defaultTags": [],
+    "defaultMaterial": {
+      "potato": 1,
+      "egg": 2
+    },
+    "dishes": [
+      {
+        "id": 101,
+        "name": "House Special",
+        "price": 21.59,
+        "material": {
+          "bacon": 2,
+          "sausage": 2,
+          "pancake": 2
+        }
+      }
+    ]
+  },
+  {
+    "sectionName": "Eggs Benedict",
+    "tagSection": [
+      "egg",
+      "bread",
+      "potato",
+      "extra egg/meat"
+    ],
+    "defaultTags": [
+      "poached medium",
+      "english muffin"
+    ],
+    "defaultMaterial": {
+      "potato": 1,
+      "egg": 2,
+      "bread": 2
+    },
+    "dishes": [
+      {
+        "id": 3,
+        "name": "With Back Bacon",
+        "price": 18,
+        "material": {
+          "ham": 2
+        }
+      },
+      {
+        "id": 3,
+        "name": "With Bacon",
+        "price": 18,
+        "material": {
+          "Bacon": 2
+        }
+      },
+      {
+        "id": 3,
+        "name": "With Sausage Patty",
+        "price": 18.29,
+        "material": {
+          "sausage patty": 2
+        }
+      },
+      {
+        "id": 3,
+        "name": "With Smoked Salmon",
+        "price": 18.69,
+        "material": {
+          "smoked salmon": 1
+        }
+      },
+      {
+        "id": 3,
+        "name": "With Grilled Tomato",
+        "price": 16.99,
+        "material": {
+          "tomato": 2
+        }
+      },
+      {
+        "id": 3,
+        "name": "With Spinach",
+        "price": 16.99,
+        "material": {
+          "Spinach": 1
+        }
+      }
+    ]
+  },
+  {
+    "sectionName": "Omelettes",
+    "tagSection": [
+      "egg",
+      "bread",
+      "potato",
+      "vegetable",
+      "cheese",
+      "extra egg/meat"
+    ],
+    "defaultTags": [],
+    "defaultMaterial": {
+      "potato": 1,
+      "egg": 2,
+      "bread": 2
+    },
+    "dishes": [
+      {
+        "id": 1,
+        "name": "Western Omelette",
+        "price": 18.69,
+        "material": {
+          "mushroom": 1,
+          "ham slice": 1,
+          "onion": 1,
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 20,
+        "name": "House Vegetarian & Cheese",
+        "price": 18.59,
+        "material": {
+          "mushroom": 1,
+          "tomato": 1,
+          "onion": 1,
+          "cheddar cheese": 1,
+          "spinach": 1,
+          "green pepper": 1
+        }
+      },
+      {
+        "id": 21,
+        "name": "Ham & Cheese",
+        "price": 17.59,
+        "material": {
+          "ham slice": 1,
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 22,
+        "name": "Bacon Tomato & Cheese",
+        "price": 18.69,
+        "material": {
+          "bacon": 2,
+          "tomato": 1,
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 23,
+        "name": "Mushroom & Cheese",
+        "price": 17.49,
+        "material": {
+          "mushroom": 1,
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 24,
+        "name": "Cheddar Cheese",
+        "price": 16.29,
+        "material": {
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 25,
+        "name": "Bacon Mushroom & Cheese",
+        "price": 18.29,
+        "material": {
+          "mushroom": 1,
+          "bacon": 2,
+          "cheddar cheese": 1
+        }
+      },
+      {
+        "id": 26,
+        "name": "Spinach & Swiss Cheese",
+        "price": 18.29,
+        "material": {
+          "spinach": 1,
+          "bacon": 2,
+          "swiss cheese": 1
+        }
+      }
+    ]
+  }
+]

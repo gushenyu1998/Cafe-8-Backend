@@ -1,0 +1,63 @@
+{
+  "extra egg/meat": [
+    "extra egg",
+    "extra bacon",
+    "extra sausage",
+    "extra sausage patty",
+    "extra ham",
+    "extra ham slice",
+    "extra hamburger patty",
+    "extra smoked salmon",
+    "extra corned beef",
+    "extra roasted turkey"
+  ],
+  "egg": [
+    "sunny side up",
+    "easy",
+    "over easy",
+    "medium",
+    "over medium",
+    "hard",
+    "over hard",
+    "poached medium",
+    "poached hard",
+    "scrambled",
+    "omelette"
+  ],
+  "potato": [
+    "hash brown",
+    "home fries",
+    "french fries"
+  ],
+  "bread": [
+    "white toast",
+    "whole wheat toast",
+    "sour dough toast",
+    "rye toast",
+    "english muffin"
+  ],
+  "something special": [
+    "pancake",
+    "french toast"
+  ],
+  "vegetable": [
+    "relish",
+    "lettuce",
+    "onion",
+    "tomato",
+    "spinach",
+    "mushroom",
+    "green pepper"
+  ],
+  "side": [
+    "hollandaise sauce",
+    "soup",
+    "oat meal"
+  ],
+  "cheese": [
+    "cheddar cheese",
+    "yellow cheese",
+    "white cheese",
+    "swiss cheese"
+  ]
+}

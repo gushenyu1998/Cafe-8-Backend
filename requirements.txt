@@ -1,0 +1,5 @@
+Flask~=3.0.3
+Flask-SocketIO~=5.3.6
+gunicorn
+eventlet
+flask-cors ~= 5.0.0
