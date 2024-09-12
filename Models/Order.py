@@ -39,8 +39,6 @@ class Order(object):
                     # update the hashtable
                     self.hasp_map[last_order['order_id']] = index
                     del self.hasp_map[order_id]
-
-                    print(self.hasp_map)
                     return True
                 else:
                     return False

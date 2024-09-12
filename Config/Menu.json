@@ -118,8 +118,8 @@
       "extra egg/meat"
     ],
     "defaultTags": [
-      "poached medium",
-      "english muffin"
+      ["poached medium", 0],
+      ["english muffin", 0]
     ],
     "defaultMaterial": {
       "potato": 1,
@@ -180,11 +180,10 @@
   {
     "sectionName": "Omelettes",
     "tagSection": [
-      "egg",
       "bread",
       "potato",
-      "vegetable",
-      "cheese",
+      "extra vegetable ($1.85each)",
+      "extra cheese",
       "extra egg/meat"
     ],
     "defaultTags": [],

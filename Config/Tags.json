@@ -1,63 +1,63 @@
 {
   "extra egg/meat": [
-    "extra egg",
-    "extra bacon",
-    "extra sausage",
-    "extra sausage patty",
-    "extra ham",
-    "extra ham slice",
-    "extra hamburger patty",
-    "extra smoked salmon",
-    "extra corned beef",
-    "extra roasted turkey"
+    ["extra egg", 0],
+    ["extra bacon", 0],
+    ["extra sausage", 0],
+    ["extra sausage patty", 0],
+    ["extra ham", 0],
+    ["extra ham slice", 0],
+    ["extra hamburger patty", 0],
+    ["extra smoked salmon", 0],
+    ["extra corned beef", 0],
+    ["extra roasted turkey", 0]
   ],
   "egg": [
-    "sunny side up",
-    "easy",
-    "over easy",
-    "medium",
-    "over medium",
-    "hard",
-    "over hard",
-    "poached medium",
-    "poached hard",
-    "scrambled",
-    "omelette"
+    ["sunny side up", 0],
+    ["easy", 0],
+    ["over easy", 0],
+    ["medium", 0],
+    ["over medium", 0],
+    ["hard", 0],
+    ["over hard", 0],
+    ["poached medium", 0],
+    ["poached hard", 0],
+    ["scrambled", 0],
+    ["omelette", 0]
   ],
   "potato": [
-    "hash brown",
-    "home fries",
-    "french fries"
+    ["hash brown", 0],
+    ["home fries", 0],
+    ["french fries", 0]
   ],
   "bread": [
-    "white toast",
-    "whole wheat toast",
-    "sour dough toast",
-    "rye toast",
-    "english muffin"
+    ["white toast", 0],
+    ["whole wheat toast", 0],
+    ["sour dough toast", 0],
+    ["rye toast", 0],
+    ["english muffin", 0]
   ],
   "something special": [
-    "pancake",
-    "french toast"
+    ["pancake", 0],
+    ["french toast", 0]
   ],
-  "vegetable": [
-    "relish",
-    "lettuce",
-    "onion",
-    "tomato",
-    "spinach",
-    "mushroom",
-    "green pepper"
+  "extra vegetable ($1.85each)": [
+    ["relish", 1.85],
+    ["lettuce", 1.85],
+    ["onion", 1.85],
+    ["tomato", 1.85],
+    ["spinach", 1.85],
+    ["mushroom", 1.85],
+    ["green pepper", 1.85]
   ],
   "side": [
-    "hollandaise sauce",
-    "soup",
-    "oat meal"
+    ["hollandaise sauce", 0],
+    ["soup", 5],
+    ["oat meal", 3.45]
   ],
-  "cheese": [
-    "cheddar cheese",
-    "yellow cheese",
-    "white cheese",
-    "swiss cheese"
+  "extra cheese": [
+    ["cheddar cheese", 0],
+    ["yellow cheese", 0],
+    ["white cheese", 0],
+    ["swiss cheese", 0]
   ]
 }
