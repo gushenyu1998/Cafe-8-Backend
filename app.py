@@ -29,7 +29,7 @@ def block_non_socketio_requests():
 @app.route('/getOrderNumber', methods=['GET'])
 def generate_order_number():
     current_date = datetime.datetime.now()
-    return [int(current_date.strftime("%y%m%d%H%M%S") + f"{order.get_next_order():03}")]
+    return [int(current_date.strftime("%y%m%d%H%M%S") + f"{order.get_next_order()%1000:03}")]
 
 
 @app.route('/getMenu', methods=['GET'])
