@@ -524,7 +524,7 @@
       {
         "id": 0,
         "name": "Drink",
-        "price": 7.9,
+        "price": 0,
         "material": {}
       }
     ]
