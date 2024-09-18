@@ -298,31 +298,31 @@
     "dishes": [
       {
         "id": 201,
-        "name": "Special A(1 egg, 2 bacon/sausage, toast)",
+        "name": "Special A",
         "price": 13.59,
         "material": {}
       },
       {
         "id": 202,
-        "name": "Special B(1 egg, 2 bacon/sausage, potato)",
+        "name": "Special B",
         "price": 13.59,
         "material": {}
       },
       {
         "id": 203,
-        "name": "Special C(1 egg, potato and toast)",
+        "name": "Special C",
         "price": 13.59,
         "material": {}
       },
       {
         "id": 204,
-        "name": "Special D(2 egg, toast)",
+        "name": "Special D",
         "price": 12.99,
         "material": {}
       },
       {
         "id": 205,
-        "name": "Special E(2 egg, potato)",
+        "name": "Special E",
         "price": 12.99,
         "material": {}
       }
@@ -363,7 +363,7 @@
       },
       {
         "id": 38,
-        "name": "Two Pancakes & Two Eggs & Meat",
+        "name": "Two Pancakes, 2 Eggs, Meat",
         "price": 17.99,
         "material": {}
       },
