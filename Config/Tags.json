@@ -1,15 +1,11 @@
 {
   "extra egg/meat": [
     ["extra egg", 0],
-    ["extra bacon", 0],
-    ["extra sausage", 0],
-    ["extra sausage patty", 0],
-    ["extra ham", 0],
-    ["extra ham slice", 0],
-    ["extra hamburger patty", 0],
-    ["extra smoked salmon", 0],
-    ["extra corned beef", 0],
-    ["extra roasted turkey", 0]
+    ["extra bacon", 4.99],
+    ["extra sausage", 4.99],
+    ["extra sausage patty", 5.69],
+    ["extra ham", 5.69],
+    ["extra hamburger patty", 7.9],
   ],
   "egg": [
     ["sunny side up", 0],
@@ -21,8 +17,7 @@
     ["over hard", 0],
     ["poached medium", 0],
     ["poached hard", 0],
-    ["scrambled", 0],
-    ["omelette", 0]
+    ["scrambled", 0]
   ],
   "potato": [
     ["hash brown", 0],
@@ -36,10 +31,6 @@
     ["rye toast", 0],
     ["english muffin", 0]
   ],
-  "something special": [
-    ["pancake", 0],
-    ["french toast", 0]
-  ],
   "extra vegetable ($1.85each)": [
     ["relish", 1.85],
     ["lettuce", 1.85],
@@ -50,14 +41,49 @@
     ["green pepper", 1.85]
   ],
   "side": [
-    ["hollandaise sauce", 0],
-    ["soup", 5],
-    ["oat meal", 3.45]
+    ["soup small", 6.59],
+    ["soup large", 7.99],
+    ["oat meal", 7.99]
   ],
   "extra cheese": [
-    ["cheddar cheese", 0],
-    ["yellow cheese", 0],
-    ["white cheese", 0],
-    ["swiss cheese", 0]
+    ["cheddar cheese", 1.99],
+    ["yellow cheese", 1.99],
+    ["white cheese", 1.99],
+    ["swiss cheese", 1.99]
+  ],
+  "attached drink": [
+    ["coffee", 0],
+    ["tea", 0],
+    ["small juice", 0],
+    ["small drink", 0]
+  ],
+  "attached meat": [
+    ["ham", 0],
+    ["bacon", 0],
+    ["sausage", 0],
+    ["sausage patties", 0]
+  ],
+  "drink": [
+    ["togo cup", 0.25],
+    ["Coffee", 2.99],
+    ["Tea", 2.99],
+    ["Decaf Coffee", 2.99],
+    ["Coffee Refill", 0.99],
+    ["Iced Coffee (Original)", 4.99],
+    ["Iced Coffee (Vanilla)", 4.99],
+    ["Iced Coffee (Caramel)", 4.99],
+    ["Iced Coffee (Hazelnut)", 4.99],
+    ["Hot Chocolate", 5.29],
+    ["Milk Shake (Chocolate)", 7.99],
+    ["Milk Shake (Vanilla)", 7.99],
+    ["Lemonade", 4.99],
+    ["Chocolate Milk (Small)", 4.99],
+    ["Chocolate Milk (Large)", 5.39],
+    ["Juice (Small)", 4.59],
+    ["Juice (Large)", 5.29],
+    ["Pop", 2.99],
+    ["Lemon Slice", 0.6],
+    ["Bottled Water", 1.50],
+    ["Ice Cream (2 Scoops)", 4.99]
   ]
 }

@@ -5,7 +5,8 @@
       "egg",
       "bread",
       "potato",
-      "extra egg/meat"
+      "extra egg/meat",
+      "drink"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -88,8 +89,8 @@
       "egg",
       "potato",
       "bread",
-      "something special",
-      "extra egg/meat"
+      "extra egg/meat",
+      "drink"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -115,11 +116,18 @@
       "egg",
       "bread",
       "potato",
-      "extra egg/meat"
+      "extra egg/meat",
+      "drink"
     ],
     "defaultTags": [
-      ["poached medium", 0],
-      ["english muffin", 0]
+      [
+        "poached medium",
+        0
+      ],
+      [
+        "english muffin",
+        0
+      ]
     ],
     "defaultMaterial": {
       "potato": 1,
@@ -184,7 +192,8 @@
       "potato",
       "extra vegetable ($1.85each)",
       "extra cheese",
-      "extra egg/meat"
+      "extra egg/meat",
+      "drink"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -272,6 +281,212 @@
           "bacon": 2,
           "swiss cheese": 1
         }
+      }
+    ]
+  },
+  {
+    "sectionName": "Breakfast Specials",
+    "tagSection": [
+      "egg",
+      "bread",
+      "potato",
+      "extra egg/meat",
+      "attached drink",
+      "drink"
+    ],
+    "defaultTags": [],
+    "dishes": [
+      {
+        "id": 201,
+        "name": "Special A(1 egg, 2 bacon/sausage, toast)",
+        "price": 13.59,
+        "material": {}
+      },
+      {
+        "id": 202,
+        "name": "Special B(1 egg, 2 bacon/sausage, potato)",
+        "price": 13.59,
+        "material": {}
+      },
+      {
+        "id": 203,
+        "name": "Special C(1 egg, potato and toast)",
+        "price": 13.59,
+        "material": {}
+      },
+      {
+        "id": 204,
+        "name": "Special D(2 egg, toast)",
+        "price": 12.99,
+        "material": {}
+      },
+      {
+        "id": 205,
+        "name": "Special E(2 egg, potato)",
+        "price": 12.99,
+        "material": {}
+      }
+    ]
+  },
+  {
+    "sectionName": "Something Sweet",
+    "tagSection": [
+      "egg",
+      "attach meat",
+      "extra egg/meat",
+      "drink"
+    ],
+    "dishes": [
+      {
+        "id": 31,
+        "name": "One pancake",
+        "price": 4.99,
+        "material": {}
+      },
+      {
+        "id": 32,
+        "name": "Two pancake",
+        "price": 7.99,
+        "material": {}
+      },
+      {
+        "id": 37,
+        "name": "Three pancake",
+        "price": 12.99,
+        "material": {}
+      },
+      {
+        "id": 35,
+        "name": "Two Pancakes & Two Eggs",
+        "price": 12.99,
+        "material": {}
+      },
+      {
+        "id": 38,
+        "name": "Two Pancakes & Two Eggs & Meat",
+        "price": 17.99,
+        "material": {}
+      },
+      {
+        "id": 43,
+        "name": "French Toast 2 slice",
+        "price": 11.99,
+        "material": {}
+      },
+      {
+        "id": 44,
+        "name": "French Toast 3 slice",
+        "price": 12.99,
+        "material": {}
+      }
+    ]
+  },
+  {
+    "sectionName": "Sides & Drink",
+    "tagSection": ["drink"],
+    "defaultTags": [],
+    "dishes": [
+      {
+        "id": 0,
+        "name": "Oatmeal & Raisins",
+        "price": 7.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Toast",
+        "price": 2.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "English Muffin",
+        "price": 2.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Soup (Small)",
+        "price": 6.59,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Soup (Large)",
+        "price": 7.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Hash Browns",
+        "price": 6.59,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Home Fries",
+        "price": 6.59,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Fries",
+        "price": 6.59,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Cheese",
+        "price": 1.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Gravy",
+        "price": 1.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Bacon Strips",
+        "price": 4.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Sausages",
+        "price": 4.99,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Ham",
+        "price": 5.69,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Sausage Patty",
+        "price": 5.69,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Beef Sausages",
+        "price": 5.69,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Hamburger Patty",
+        "price": 7.9,
+        "material": {}
+      },
+      {
+        "id": 0,
+        "name": "Drink",
+        "price": 7.9,
+        "material": {}
       }
     ]
   }
