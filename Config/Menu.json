@@ -6,7 +6,13 @@
       "bread",
       "potato",
       "extra egg/meat",
-      "drink"
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -90,7 +96,13 @@
       "potato",
       "bread",
       "extra egg/meat",
-      "drink"
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -117,7 +129,13 @@
       "bread",
       "potato",
       "extra egg/meat",
-      "drink"
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
     ],
     "defaultTags": [
       [
@@ -193,7 +211,13 @@
       "extra vegetable ($1.85each)",
       "extra cheese",
       "extra egg/meat",
-      "drink"
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
     ],
     "defaultTags": [],
     "defaultMaterial": {
@@ -334,7 +358,14 @@
       "egg",
       "attach meat",
       "extra egg/meat",
-      "drink"
+      "drink",
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
     ],
     "dishes": [
       {
@@ -383,7 +414,15 @@
   },
   {
     "sectionName": "Sides & Drink",
-    "tagSection": ["drink"],
+    "tagSection": [
+      "Drink List",
+      "Coffee & Tea",
+      "Iced Coffee",
+      "Chocolate",
+      "Iced Drink",
+      "Ice Cream",
+      "Others"
+    ],
     "defaultTags": [],
     "dishes": [
       {

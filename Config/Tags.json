@@ -63,27 +63,40 @@
     ["sausage", 0],
     ["sausage patties", 0]
   ],
-  "drink": [
-    ["togo cup", 0.25],
+  "Drink List": [],
+  "Coffee & Tea": [
     ["Coffee", 2.99],
     ["Tea", 2.99],
     ["Decaf Coffee", 2.99],
-    ["Coffee Refill", 0.99],
+    ["Coffee Refill", 0.99]
+  ],
+  "Iced Coffee": [
     ["Iced Coffee (Original)", 4.99],
     ["Iced Coffee (Vanilla)", 4.99],
     ["Iced Coffee (Caramel)", 4.99],
-    ["Iced Coffee (Hazelnut)", 4.99],
+    ["Iced Coffee (Hazelnut)", 4.99]
+  ],
+  "Chocolate": [
     ["Hot Chocolate", 5.29],
-    ["Milk Shake (Chocolate)", 7.99],
-    ["Milk Shake (Vanilla)", 7.99],
-    ["Lemonade", 4.99],
     ["Chocolate Milk (Small)", 4.99],
-    ["Chocolate Milk (Large)", 5.39],
+    ["Chocolate Milk (Large)", 5.39]
+  ],
+  "Iced Drink": [
+    ["Lemonade", 4.99],
     ["Juice (Small)", 4.59],
     ["Juice (Large)", 5.29],
     ["Pop", 2.99],
+    ["Lemon Slice", 0.6]
+  ],
+  "Ice Cream": [
+    ["Milk Shake (Chocolate)", 7.99],
+    ["Milk Shake (Vanilla)", 7.99],
+    ["Ice Cream (2 Scoops)", 4.99]
+  ],
+  "Others": [
     ["Lemon Slice", 0.6],
     ["Bottled Water", 1.50],
-    ["Ice Cream (2 Scoops)", 4.99]
+    ["Coffee/Tea Togo", 0.25],
+    ["Ice Coffe Togo", 0.3]
   ]
 }
