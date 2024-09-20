@@ -15,11 +15,6 @@
       "Others"
     ],
     "defaultTags": [],
-    "defaultMaterial": {
-      "egg": 2,
-      "bread": 2,
-      "potato": 1
-    },
     "dishes": [
       {
         "id": 2,
@@ -105,10 +100,6 @@
       "Others"
     ],
     "defaultTags": [],
-    "defaultMaterial": {
-      "potato": 1,
-      "egg": 2
-    },
     "dishes": [
       {
         "id": 101,
@@ -147,11 +138,6 @@
         0
       ]
     ],
-    "defaultMaterial": {
-      "potato": 1,
-      "egg": 2,
-      "bread": 2
-    },
     "dishes": [
       {
         "id": 3,
@@ -220,11 +206,6 @@
       "Others"
     ],
     "defaultTags": [],
-    "defaultMaterial": {
-      "potato": 1,
-      "egg": 2,
-      "bread": 2
-    },
     "dishes": [
       {
         "id": 1,
@@ -315,8 +296,7 @@
       "bread",
       "potato",
       "extra egg/meat",
-      "attached drink",
-      "drink"
+      "attached drink"
     ],
     "defaultTags": [],
     "dishes": [
@@ -356,9 +336,8 @@
     "sectionName": "Something Sweet",
     "tagSection": [
       "egg",
-      "attach meat",
+      "attached meat",
       "extra egg/meat",
-      "drink",
       "Drink List",
       "Coffee & Tea",
       "Iced Coffee",
@@ -367,6 +346,7 @@
       "Ice Cream",
       "Others"
     ],
+    "defaultTags": [],
     "dishes": [
       {
         "id": 31,

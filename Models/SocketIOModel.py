@@ -64,5 +64,15 @@ class SocketIOModel(Namespace):
             emit('message', f"Error: order append due to the data error in backend")
             return "Fail"
 
+    def on_tagOrder(self, order_id):
+        if self.order:
+            if order_id['order_id']:
+                if self.order.add_tagged_order(order_id['order_id']):
+                    emit('message', f"Success: Update the Order", broadcast=True)
+                    return "Success"
+        emit('message', f"Error: order id not found")
+        return "Fail"
+
+
     # def on_message(self, data):
     #     emit('message', data, broadcast=True)

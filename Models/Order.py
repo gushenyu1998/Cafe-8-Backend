@@ -6,6 +6,7 @@ class Order(object):
 
     def __init__(self):
         self.memory = []
+        self.tagged_memory = []
         self.hasp_map = {}
         self.next_order = 1
         self.lock = Lock()
@@ -39,12 +40,24 @@ class Order(object):
                     # update the hashtable
                     self.hasp_map[last_order['order_id']] = index
                     del self.hasp_map[order_id]
+
+                    # delete the order from tag:
+                    if order_id in self.tagged_memory:
+                        self.tagged_memory.remove(order_id)
+
                     return True
                 else:
                     return False
             except Exception as e:
                 print(f"error: {e}")
                 return False
+
+    def add_tagged_order(self, order_id):
+        with self.lock:
+            if order_id not in self.tagged_memory:
+                self.tagged_memory.append(order_id)
+                return True
+            return False
 
     def clean_up_memory(self):
         self.memory.clear()
@@ -55,3 +68,6 @@ class Order(object):
 
     def get_next_order(self):
         return self.next_order
+
+    def get_tagged_memory(self):
+        return self.tagged_memory
